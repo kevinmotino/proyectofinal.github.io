@@ -116,7 +116,7 @@ const destacados = [
       },
     },
   };
-  
+
   const nervousSystem = {
     imagePath: "/cns.avif",
     categories: {
@@ -149,7 +149,7 @@ const destacados = [
       },
     },
   };
-  
+
   const lymphaticSystem = {
     imagePath: "/linfaticos.jpg",
     categories: {
@@ -182,7 +182,7 @@ const destacados = [
       },
     },
   };
-  
+
   const endocrineSystem = {
     imagePath: "/endocrino.jpg",
     categories: {
