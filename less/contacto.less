@@ -1,0 +1,73 @@
+@fuente-principal: 'Arial', sans-serif;
+@color-fondo-body: #fff;
+@color-texto-body: #000000;
+@color-fondo-header: #87ceeb;
+@color-texto-header: #050505;
+@color-fondo-section: #3DC1C6;
+@border-radius-section: 10px;
+@font-size-info: 16px;
+@width-columna: 48%;
+@color-link: #0000ff;
+@color-hover-link: rgb(253, 252, 252);
+@padding-nav: 10px;
+@color-texto-nav: #050505;
+@color-hover-nav: @color-hover-link;
+@background-footer: #87ceeb;
+@color-texto-footer: #050505;
+@padding-footer: 10px;
+@font-size-h3: 25px;
+
+.body-contact {
+    font-family: @fuente-principal;
+    background-color: @color-fondo-body;
+    color: @color-texto-body;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: @color-fondo-section;
+    border-radius: @border-radius-section;
+}
+
+.info {
+    font-size: @font-size-info;
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna {
+    width: @width-columna;
+}
+
+a {
+    color: @color-link;
+    text-decoration: none;
+}
+
+.navegacion a:hover {
+    color: @color-hover-nav;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+h3 {
+    font-size: @font-size-h3;
+}
+.navegacion a.activo {
+    background-color: @color-link;
+    color: @color-fondo-section;
+}

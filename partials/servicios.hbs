@@ -1,0 +1,16 @@
+<section class="imagenservicios">
+        <img src="img/banner.jpg" alt="Banner de servicios">
+</section>
+
+<section class="ServiciosTitle">
+        <h1>Nuestros Servicios</h1>
+</section>
+
+<section class="services-grid">
+    {{#each servicios}}
+        <div class="service-card">
+            <img src="{{url}}" alt="{{descripcionimg}}">
+            <h2>{{title}}</h2>
+        </div>
+    {{/each}}
+</section>

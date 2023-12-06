@@ -1,0 +1,59 @@
+@base-color: #3DC1C6;
+@color_1: #fff;
+@font_family_1: Arial, sans-serif;
+@background_color_1: rgb(51, 51, 51);
+@background_color_2: #f9f9f9;
+
+.body-system {
+	align-items: center;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid @base-color;
+
+  h2 {
+    color: @base-color;
+    cursor: pointer;
+  }
+
+  .system-image {
+    width: 100px;
+	height: 100px;
+    margin-bottom: 10px;
+  }
+
+  .medicamentos {
+    display: none;
+
+    h3 {
+      color: darken(@base-color, 10%);
+      cursor: pointer;
+    }
+	.cat-image{
+		max-width: 150px;
+		max-height: 150px;
+	}
+
+    .medication-image {
+      max-width: 100%;
+      margin-bottom: 5px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+
+      li {
+        margin-bottom: 5px;
+
+        .medication-image {
+          max-width: 20px; /* Ajusta según sea necesario */
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
+
+
+@import "footer.less";
+@import "header.less";

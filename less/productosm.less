@@ -1,0 +1,77 @@
+@color_1m: #000;
+@color_f: #fff;
+@font_family_1: 'Arial', sans-serif;
+@background_color_1m: #fff;
+@background_color_2m: #3DC1C6;
+@background_color_3m: #fff;
+@background_color_4m: rgb(103, 184, 216);
+
+body {
+	font-family: @font_family_1;
+	margin: 0;
+	padding: 0;
+	background-color: @background_color_1m;
+}
+.containermedico {
+	max-width: 1200px;
+	margin: 20px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.product {
+	box-sizing: border-box;
+	width: 30%;
+	margin: 20px;
+	background-color: @background_color_2m;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 15px;
+	text-align: center;
+	img {
+		width: 330px;
+		height: 250px;
+		border-radius: 8px;
+	}
+	h2 {
+		font-size: 1.5em;
+		margin: 10px 0;
+        color: @color_f;
+	}
+	p.price {
+		color: @color_f;
+		font-size: 1.2em;
+	}
+}
+.add-to-cart {
+	background-color: @background_color_3m;
+	color: @color_1m;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 1em;
+	&:hover {
+		background-color: @background_color_4m;
+	}
+}
+.quantity {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+.quantity-input {
+	width: 50px;
+	text-align: center;
+	font-size: 1em;
+	margin-left: auto;
+	margin-right: auto;
+}
+.bannerimgs {
+	display: block;
+	margin: auto;
+	width: 1150px;
+	height: 550px;
+}
+
+@import "footer.less";
+@import "header.less";

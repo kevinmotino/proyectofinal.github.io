@@ -1,0 +1,17 @@
+<section>
+    <section>
+        <img class="bannerimgs" src="img/bannermedico.jpg" alt="Banner de productos medicos">
+    </section>
+        <div class="containermedico">
+            {{#each productosm}}
+            <div class="product">
+                <img src="{{url}}" alt="{{descripcion}}">
+                <h2>{{Title}}</h2>
+                <p class="price">{{price}}</p>
+                <div class="quantity">
+                    <input class="quantity-input" type="number" value="1" min="1">
+                </div>
+                <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+            {{/each}}
+</section>

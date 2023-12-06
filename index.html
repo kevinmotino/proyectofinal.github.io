@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet/less" href="less/style.less">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/3.12.2/less.min.js"></script>
+  <title>Farmacia Kristal - Inicio</title>
+</head>
+<body>
+  {{>header}}
+  <main>
+    <div class="container-banner">
+      <img src="/img/banner-farmacia.jpg" alt="imagen-banner">
+    </div>
+      <h2>Productos Destacados</h2>
+      {{>destacados}}
+      <h2>Lo más vendido</h2>
+      {{>masVendido}}
+      {{>contactanosMain}}
+  </main>
+</body>
+{{>footer}}
+</html>
+

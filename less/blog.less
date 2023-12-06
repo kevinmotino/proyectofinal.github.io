@@ -1,0 +1,82 @@
+@font-family: 'Arial', sans-serif;
+@color-background-body: #3DC1C6;
+@color-text-body: #000000;
+@color-border-card: #87CEEB;
+@color-background-card: #ffffff;
+
+@color-background-promo-card: #ffffff;
+
+section {
+  padding: 20px;
+}
+
+.inicio p{
+  text-align: center;
+}
+
+.productos p{
+  text-align: center;
+}
+
+.consejos p{
+  text-align: center;
+}
+
+.card {
+  background-color: @color-background-body;
+  border: 1px solid @color-border-card;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.product-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+
+  .product-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: @color-background-card;
+  }
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.promo-card {
+  background-color: @color-background-promo-card;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.contacto{
+  text-align: center;
+}
