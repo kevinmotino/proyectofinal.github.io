@@ -14,23 +14,23 @@ const handlerBarsContext = {
 }
 
 const destacados = [
-    {title:"destacado-1", Image: "/img/destacado1.png"},
-    {title:"destacado-2", Image: "/img/destacado2.png"},
-    {title:"destacado-3", Image: "/img/destacado3.png"},
-    {title:"destacado-4", Image: "/img/destacado4.png"},
+    {title:"destacado-1", Image: "img/destacado1.png"},
+    {title:"destacado-2", Image: "img/destacado2.png"},
+    {title:"destacado-3", Image: "img/destacado3.png"},
+    {title:"destacado-4", Image: "img/destacado4.png"},
   ];
 
   const masVendido = [
-    {title:"Acetaminofen", Image: "/img/masVendido1.jpg"},
-    {title:"Nocetan", Image: "/img/masVendido2.jpg"},
-    {title:"Panadol Niño", Image: "/img/masVendido3.jpg"},
-    {title:"Prelone", Image: "/img/masVendido4.jpeg"},
+    {title:"Acetaminofen", Image: "img/masVendido1.jpg"},
+    {title:"Nocetan", Image: "img/masVendido2.jpg"},
+    {title:"Panadol Niño", Image: "img/masVendido3.jpg"},
+    {title:"Prelone", Image: "img/masVendido4.jpeg"},
   ];
 
   const contactanosMain = [
-    {title:"Hablanos a", Image: "/img/telefono-icono.png", contacto: "Teléfono: 2234-6892"},
-    {title:"Escríbenos a", Image: "/img/email-icono.png", contacto: "kristalfarmacia@gmail.com"},
-    {title:"Whatsapp", Image: "/img/whatsapp-icono.png", contacto: "Teléfono: +504 9435-1294"},
+    {title:"Hablanos a", Image: "img/telefono-icono.png", contacto: "Teléfono: 2234-6892"},
+    {title:"Escríbenos a", Image: "img/email-icono.png", contacto: "kristalfarmacia@gmail.com"},
+    {title:"Whatsapp", Image: "img/whatsapp-icono.png", contacto: "Teléfono: +504 9435-1294"},
   ];
 
   const servicios = [
